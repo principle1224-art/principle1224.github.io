@@ -217,7 +217,11 @@ defaults:
       share: true
       related: true
       show_date: true
+<<<<<<< HEAD
       date_format: "%Y-%m-%d"
+=======
+      date_format: "%Y-%-m-%d"
+>>>>>>> 0bdd55e5814b7f32385a6378424f2e73fc9f51f7
   # _pages
   - scope:
       path: "_pages"

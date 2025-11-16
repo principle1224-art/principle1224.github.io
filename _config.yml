@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "LHJ's Profile"
+title                    : "YHJ's Personal website"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "LHJ"
-description              : "LHJ's personal profile site."
+name                     : "YHJ"
+description              : "1.신규운용사 펀드 설정 실무 자문(펀드운용역 5년), 2.웹 front & backend 개발, 3.중국 진출 기업 자문(통번역 등 지원), 4.중고등 수학강의"
   # this is used for meta description tag and in RSS/Atom feeds
 url                      : "https://principle1224.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -114,9 +114,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "LHJ"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "LHJ's personal profile site."
+  name             : "YHJ"
+  avatar           : "/assets/images/profile1-6.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "<b>프로젝트 의뢰:</b> <br><br> - <b>신규 운용사 실무 자문</b><br> &nbsp; &nbsp; &nbsp;[경력: 운용역 5년]<br>- <b>기업 중국 진출 실무(통번역 등 지원)</b><br> &nbsp;&nbsp;&nbsp;[중국 거주 10년 이상]<br> - <b>웹 front & backend 개발</b><br>- <b>수학강의(중고등 수학 개념)</b><br><br>"
   location         : "SEOUL"
   email            :
   links:
@@ -328,4 +328,16 @@ defaults:
       related: true
       show_date: true
 
+      # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 date_format: "%Y-%m-%d"
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
